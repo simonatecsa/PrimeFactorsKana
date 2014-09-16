@@ -4,6 +4,9 @@ namespace PrimeFactorsKata
 {
     public class PrimeFactors
     {
+        // name: parameter name is unnecessarily long. n is a perfect name here :)
+        // see Clean Code on names and scope (pg. 22): 
+        // The length of a name should correspond to the size of its scope
         public static List<int> Generate(int numberToFindPrimeFactors)
         {
             List<int> primeFactors = new List<int>();
