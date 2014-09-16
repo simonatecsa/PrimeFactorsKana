@@ -1,9 +1,4 @@
-﻿// Remove unused using directives
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using NUnit.Framework;
 
 namespace PrimeFactorsKata.Tests
@@ -38,8 +33,7 @@ namespace PrimeFactorsKata.Tests
         [Test]
         public void PrimeFactorsFor_13()
         {
-            // no need for ()
-            Assert.AreEqual(new List<int>(){13}, PrimeFactors.Generate(13));
+            Assert.AreEqual(new List<int>{13}, PrimeFactors.Generate(13));
         }
     }
 }
